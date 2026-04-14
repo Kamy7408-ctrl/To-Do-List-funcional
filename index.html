@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Melhor SEO e acessibilidade -->
+    <meta name="description" content="Aplicação de lista de tarefas com prioridades, organização e controle de atividades">
+
+    <title>To-Do List</title>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==============================
+         CABEÇALHO
+    ============================== -->
+    <header>
+        <h1>Minha To-Do List</h1>
+    </header>
+
+    <!-- ==============================
+         CONTEÚDO PRINCIPAL
+    ============================== -->
+    <main>
+
+        <!-- ==============================
+             SEÇÃO DE INPUT
+        ============================== -->
+        <section id="task-input-section" aria-labelledby="input-title">
+            <h2 id="input-title">Adicionar nova tarefa</h2>
+
+            <div class="input-group">
+
+                <!-- Campo de tarefa -->
+                <label for="taskInput">Tarefa</label>
+                <input 
+                    type="text" 
+                    id="taskInput" 
+                    placeholder="Digite sua tarefa..."
+                    aria-required="true"
+                >
+
+                <!-- Prioridade -->
+                <label for="prioritySelect">Prioridade</label>
+                <select id="prioritySelect">
+                    <option value="alta">Alta</option>
+                    <option value="media">Média</option>
+                    <option value="baixa" selected>Baixa</option>
+                </select>
+
+                <!-- Botão adicionar -->
+                <button 
+                    id="addTaskButton" 
+                    type="button"
+                    aria-label="Adicionar nova tarefa"
+                >
+                    Adicionar tarefa
+                </button>
+
+            </div>
+
+            <!-- Feedback acessível -->
+            <div id="feedback" aria-live="polite"></div>
+
+        </section>
+
+        <!-- ==============================
+             SEÇÃO DE LISTA
+        ============================== -->
+        <section id="task-list-section" aria-labelledby="list-title">
+            <h2 id="list-title">Lista de tarefas</h2>
+
+            <!-- Contador -->
+            <p id="counter">Total: 0</p>
+
+            <!-- Lista dinâmica -->
+            <ul id="taskList" aria-live="polite">
+                <!-- Tarefas serão inseridas via JavaScript -->
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- ==============================
+         RODAPÉ
+    ============================== -->
+    <footer>
+        <p>Projeto acadêmico desenvolvido para disciplina de Engenharia de Prompt</p>
+    </footer>
+
+    <!-- ==============================
+         SCRIPT
+    ============================== -->
+    <script src="script.js"></script>
+
+</body>
+</html>
