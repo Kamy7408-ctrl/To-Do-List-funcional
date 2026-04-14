@@ -1,33 +1,29 @@
-# To-Do-List-funcional
-Projeto de uma lista de tarefas (To-Do List) desenvolvido como atividade acadêmica, com foco na aplicação de Engenharia de Prompt no desenvolvimento de software.
+# To-Do List
+
+Projeto de uma lista de tarefas desenvolvido como atividade acadêmica, com foco na aplicação de Engenharia de Prompt no desenvolvimento de software.
 
 ---
 
-## 📌 Descrição
+## Descrição
 
-Este projeto consiste em uma aplicação web simples que permite ao usuário:
+Este projeto consiste em uma aplicação web simples que permite ao usuário gerenciar tarefas do dia a dia. A aplicação possibilita adicionar tarefas, definir níveis de prioridade, marcar tarefas como concluídas e removê-las da lista.
 
-* Adicionar tarefas
+O desenvolvimento teve como objetivo não apenas a implementação funcional, mas também a utilização consciente da Inteligência Artificial como ferramenta de apoio ao processo de desenvolvimento.
+
+---
+
+## Funcionalidades
+
+* Adicionar novas tarefas
 * Definir prioridade (Alta, Média ou Baixa)
 * Marcar tarefas como concluídas
 * Remover tarefas da lista
-
-O objetivo principal foi desenvolver não apenas o código, mas também utilizar a Inteligência Artificial de forma crítica e estruturada durante todo o processo.
-
----
-
-## ⚙️ Funcionalidades
-
-* ✅ Adicionar nova tarefa
-* 🎯 Definir prioridade (Alta, Média, Baixa)
-* ✔️ Marcar tarefa como concluída
-* ❌ Remover tarefa
-* ⌨️ Adicionar tarefa pressionando "Enter"
-* 🎨 Estilização dinâmica baseada na prioridade
+* Adicionar tarefas utilizando a tecla "Enter"
+* Aplicar estilização dinâmica conforme a prioridade
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * HTML5
 * CSS3
@@ -35,20 +31,20 @@ O objetivo principal foi desenvolver não apenas o código, mas também utilizar
 
 ---
 
-## 🧠 Engenharia de Prompt
+## Engenharia de Prompt
 
-Durante o desenvolvimento, foi utilizada a técnica de Engenharia de Prompt com a seguinte estrutura:
+Durante o desenvolvimento, foi aplicada a técnica de Engenharia de Prompt, estruturando as interações com a IA com base nos seguintes elementos:
 
-* **Persona**: definição do papel da IA (ex: desenvolvedor front-end)
-* **Contexto**: descrição do projeto
-* **Tarefa**: ação solicitada
-* **Formato**: tipo de resposta esperada
+* Persona: definição do papel da IA
+* Contexto: descrição do problema ou projeto
+* Tarefa: ação específica solicitada
+* Formato: estrutura esperada da resposta
 
-Essa abordagem permitiu obter respostas mais precisas, melhorar a qualidade do código e reforçar o entendimento do desenvolvimento.
+Essa abordagem contribuiu para a obtenção de respostas mais precisas, melhor compreensão do código gerado e maior controle sobre o processo de desenvolvimento.
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 todo-list/
@@ -60,49 +56,41 @@ todo-list/
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
-1. Clone ou baixe este repositório
-2. Abra a pasta no VS Code
-3. Execute o arquivo `index.html` no navegador
+1. Realize o download ou clone deste repositório
+2. Abra a pasta do projeto em um editor de código (ex: VS Code)
+3. Execute o arquivo `index.html` em um navegador
 
-### 💡 Recomendado:
-
-Utilizar a extensão **Live Server** para melhor experiência.
+Recomenda-se a utilização da extensão Live Server para melhor experiência durante o desenvolvimento.
 
 ---
 
-## 🌐 Deploy
+## Deploy
 
-O projeto pode ser publicado utilizando:
+O projeto pode ser publicado utilizando plataformas como:
 
-* GitHub (armazenamento do código)
-* Vercel (deploy da aplicação)
+* GitHub (armazenamento e versionamento de código)
+* Vercel (deploy e hospedagem da aplicação)
 
 ---
 
-## 📚 Aprendizados
+## Aprendizados
 
 * Estruturação de páginas com HTML semântico
 * Estilização com CSS e uso de Flexbox
 * Manipulação do DOM com JavaScript
-* Uso de eventos (click, keydown, change)
+* Uso de eventos para interação com o usuário
 * Aplicação prática de Engenharia de Prompt
 
 ---
 
-## 🎯 Objetivo Acadêmico
+## Objetivo Acadêmico
 
-Este projeto foi desenvolvido como parte de uma atividade prática com foco em:
-
-* Desenvolvimento front-end
-* Pensamento lógico
-* Uso consciente de IA como ferramenta de apoio
+Este projeto foi desenvolvido como parte de uma atividade prática com foco no desenvolvimento front-end, raciocínio lógico e uso consciente de ferramentas de Inteligência Artificial.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
-Projeto desenvolvido por estudante de Análise e Desenvolvimento de Sistemas / Ciência da Computação.
-
----
+Projeto desenvolvido por estudante da área de tecnologia.
