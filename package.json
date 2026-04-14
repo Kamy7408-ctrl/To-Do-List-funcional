@@ -1,0 +1,30 @@
+{
+  "name": "to-do-list-funcional",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Projeto de uma lista de tarefas desenvolvido como atividade acadêmica, com foco na aplicação de Engenharia de Prompt no desenvolvimento de software.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kamy7408-ctrl/To-Do-List-funcional.git"
+  },
+  "keywords": [
+    "todo",
+    "task-manager",
+    "vanilla-js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kamy7408-ctrl/To-Do-List-funcional/issues"
+  },
+  "homepage": "https://github.com/Kamy7408-ctrl/To-Do-List-funcional#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  }
+}
